@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+.env
+be/.env
+.vscode/
+*.html
+!fe/index.html
+.vite/
+dist/
