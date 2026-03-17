@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Users } from "lucide-react";
 
 // Update this to your Railway URL once deployed (e.g., "https://acekit-backend.up.railway.app")
-const API_BASE_URL = "https://acekit.onrender.com/"; //"http://127.0.0.1:5000";
+const API_BASE_URL = "https://acekit.onrender.com"; //"http://127.0.0.1:5000";
 
 export function VisitorCounter() {
   const [count, setCount] = useState<number | null>(null);
