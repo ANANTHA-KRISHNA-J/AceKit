@@ -1,4 +1,4 @@
-export const API_BASE = "https://acekit.onrender.com/";//"http://127.0.0.1:5000";
+export const API_BASE = "https://acekit.onrender.com";//"http://127.0.0.1:5000";
 
 export interface StartInterviewRequest {
   resume_text: string;
